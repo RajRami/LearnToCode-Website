@@ -1,0 +1,94 @@
+@media only screen and (max-width: 1150px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 440px;
+        transition: all 0.5s ease-in-out;
+    }
+    .logo{
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img {
+        height: 14vh;
+        width: 65%;
+        border-radius: 56px;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .search{
+        padding: 0px;
+    }
+    .nav-list li a{
+        font-size: 33px;
+    }    
+    .input-nav{
+        font-size: 16px;
+    }
+    .btn-sm{
+        padding: 2px;
+    }
+    .burger{
+        display: block;
+    }
+    .visibility-resp{
+        opacity: 0; 
+    }
+    .h-nav-resp{
+        height: 75px;
+    }
+}  
+@media only screen and (max-width: 1000px) {
+    .sec-main{
+        flex-direction: column-reverse;
+    }
+    .sec-main div{
+        text-align: center;
+    }
+    .btn-sec-main{
+        display: block;
+        margin: auto;
+    }
+    .sec-main-imgdiv{
+        align-items: center;
+    }
+    form{
+        max-width: 70%;
+    }
+}  
+@media only screen and (max-width:750px) {
+    .p-sec1{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:550px) {
+    h1{
+        font-size: 30px;
+    }
+    .p-sec1{
+        font-size: 12px;
+    }
+    .p-footer{
+        font-size: 12px;
+    }
+    .sec-main{
+        margin: 0;
+    }
+    .sec-main img {
+        height: 35vh;
+        width: 35vh;
+    }
+}
+@media only screen and (max-width:350px) {
+    .p-sec1{
+        font-size: 9px;
+    }
+    .btn-sec1 button {
+        font-size: 10px;
+    }
+    .p-footer{
+        font-size: 9px;
+    }
+}

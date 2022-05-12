@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 25% 40% 35%;
+    background-color: rgba(14, 14, 14, 0.925);
+}
+.logo{
+    margin: 3px 15px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 10vh;
+    width: 25%;
+    border-radius: 40px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list li{ 
+    list-style: none;
+    margin: 0 10px;
+}
+.nav-list li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 6px;
+}
+.nav-list li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 170px;
+}
+.input-nav{
+    margin: 5px;
+    padding: 0px 3px;
+    border-radius: 5px;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    top: 15px;
+}
+.line{
+    height: 5px;
+    width: 33px;
+    background-color: #fff;
+    margin: 4px;
+}
+.btn-sm{
+    cursor: pointer;
+    padding: 1px;
+    border-radius: 7px;
+}
+.btn-sec1{
+    text-align: center;
+    margin: 5px;
+}
+.btn-sec1 button {
+    padding: 3px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn-sec-main{
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 7px;
+    margin: 5px 0px;
+    width: fit-content;
+}
+.btn-form{
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 7px;
+    width: 5rem;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(219, 216, 216);
+}
+.sec1{
+    height: 90vh;
+    width: 100vw;
+    background-image: url(../Img/bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.95;
+}
+.container{
+    color: rgb(255, 255, 255);
+}
+.sec-main{
+    display: flex;
+    padding: 10px;
+    margin: 0px 50px;
+    background-color: rgb(235, 233, 233);
+}
+.sec-main-mid{
+    flex-direction: row-reverse;
+}
+.sec-main div{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec-main img{
+    height: 40vh;
+    width: 40vh;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.p-sec1{
+    text-align: center;
+    font-size: 25px;
+}
+.p-footer{
+    text-align: center;
+    background-color:rgba(20, 19, 19, 0.925);
+    margin: 5px 0px;
+    padding: 10px;
+    color: white;
+}
+form{
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(235, 233, 233);
+    padding: 10px;
+    border-radius: 10px;
+}
+form input{
+    width: 90%;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 5px;
+}
+form textarea{
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
